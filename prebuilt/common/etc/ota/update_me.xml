@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RomConfig>
+	<RomName>CyanHacker Rom</RomName>
+	<RomVersion>1.1</RomVersion>
+	<RomCheckUrl>http://hrt-group.eu/FTP/noname/UpdateMe/update_me_check_en.xml</RomCheckUrl>
+    <RomElemUrl>http://hrt-group.eu/FTP/noname/UpdateMe/update_me_parts_en.xml</RomElemUrl>
+	<DownloadDir>/mnt/sdcard/CyanHacker</DownloadDir>
+	<DisableInstalledApps>1</DisableInstalledApps>
+	<DisableScripts>1</DisableScripts>
+	<CheckMD5>1</CheckMD5>
+    <RebootRecovery>1</RebootRecovery>
+</RomConfig>
