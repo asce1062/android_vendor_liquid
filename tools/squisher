@@ -186,7 +186,7 @@ echo -e "      / /   __ ___  __  __ _ ___/ / ___/ ___ ____  ___  ___  / /_/ /_ "
 echo -e "     / /   / / __ '/ / / / / __  /\__  \/ __' __ \/__ \/__ \/ __/ __ \ "
 echo -e "    / /___/ / /_/ / /_/ / / /_/ /___/  / / / / / //_/ //_/ / /_/ / / / "
 echo -e "   /_____/_/\__, /\__,_/_/\__,_//____ /_/ /_/ /_/\___/\___/\__/_/ /_/ "
-echo -e "              /_/       "${txtrst} ${cya}"Liquid-Kitkat v-$VERSION"
+echo -e "              /_/       "${txtrst} ${cya}"CyanHacker v-$VERSION"
 echo -e "                                $TARGET_PRODUCT_FINAL"${txtrst}
 echo -e ""
 echo -e ""; echo -e ${cya}"Package complete:${ylw} $OUTFILE"${txtrst}
