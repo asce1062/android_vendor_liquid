@@ -49,13 +49,33 @@ PRODUCT_PACKAGES += \
     Apollo \
     DashClock \
     DeskClock \
-    KernelTweaker \
-    LiquidFileManager \
     LiquidLauncher \
     LiquidPapers \
     LiquidStats \
     LiquidUpdater
 
+# CyanHacker
+PRODUCT_PACKAGES += \
+    CMFileManager \
+    OmniSwitch
+
+	
+PRODUCT_COPY_FILES += \
+    vendor/liquid/prebuilt/common/etc/zedge/Zedge.apk:system/app/Zedge.apk \
+    vendor/liquid/prebuilt/common/etc/romcontrol/Rom-Control.apk:system/app/Rom-Control.apk \
+    vendor/liquid/prebuilt/common/etc/romcontrol/ClockSync.apk:system/app/ClockSync.apk \
+    vendor/liquid/prebuilt/common/etc/romcontrol/Greenify.apk:system/app/Greenify.apk \
+    vendor/liquid/prebuilt/common/etc/romcontrol/TitaniumBackup.apk:system/app/TitaniumBackup.apk \
+    vendor/liquid/prebuilt/common/etc/romcontrol/SDMaid.apk:system/app/SDMaid.apk \
+    vendor/liquid/prebuilt/common/etc/romcontrol/UpdateMe.apk:system/app/UpdateMe.apk \
+    vendor/liquid/prebuilt/common/etc/romcontrol/TintedStatusBar.apk:system/app/TintedStatusBar.apk \
+    vendor/liquid/prebuilt/common/etc/trickster/TricksterMod.apk:system/app/TricksterMod.apk \
+    vendor/liquid/prebuilt/common/etc/romcontrol/Xposed.apk:system/app/Xposed.apk \
+    vendor/liquid/prebuilt/common/etc/romcontrol/BetterBatteryStats.apk:system/priv-app/BetterBatteryStats.apk \
+    vendor/liquid/prebuilt/common/etc/themestore/ThemeStore.apk:system/app/ThemeStore.apk \
+    vendor/liquid/prebuilt/common/etc/ota/update_me.xml:system/update_me.xml \
+	
+	
 # superuser
 SUPERUSER_EMBEDDED := true
 
@@ -138,16 +158,16 @@ PRODUCT_COPY_FILES += \
 
 # version
 RELEASE = false
-LIQUID_VERSION_MAJOR = 3
-LIQUID_VERSION_MINOR = 2
+LIQUID_VERSION_MAJOR = 1
+LIQUID_VERSION_MINOR = 1
 
 # release
 ifeq ($(RELEASE),true)
     LIQUID_VERSION_STATE := OFFICIAL
-    LIQUID_VERSION := LS-KK-v$(LIQUID_VERSION_MAJOR).$(LIQUID_VERSION_MINOR)-$(LIQUID_VERSION_STATE)
+    LIQUID_VERSION := CyanHacker_v$(LIQUID_VERSION_MAJOR).$(LIQUID_VERSION_MINOR)_$(LIQUID_VERSION_STATE)
 else
     LIQUID_VERSION_STATE := $(shell date +%Y-%m-%d)
-    LIQUID_VERSION := LS-KK-v$(LIQUID_VERSION_MAJOR).$(LIQUID_VERSION_MINOR)-$(LIQUID_VERSION_STATE)
+    LIQUID_VERSION := CyanHacker_v$(LIQUID_VERSION_MAJOR).$(LIQUID_VERSION_MINOR)_$(LIQUID_VERSION_STATE)
 endif
 
 # CM Hardware Abstraction Framework
@@ -162,14 +182,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.liquid.version=$(LIQUID_VERSION)
-
-# statistics identity
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.romstats.url=http://www.drdevs.com/stats/liquid/ \
-    ro.romstats.name=LiquidSmooth \
-    ro.romstats.version=$(LIQUID_VERSION) \
-    ro.romstats.askfirst=0 \
-    ro.romstats.tframe=1
 
 ifeq ($(USE_PREBUILT_CHROMIUM),1)
 ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
