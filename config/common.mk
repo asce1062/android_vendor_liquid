@@ -74,7 +74,11 @@ PRODUCT_COPY_FILES += \
     vendor/liquid/prebuilt/common/etc/romcontrol/BetterBatteryStats.apk:system/priv-app/BetterBatteryStats.apk \
     vendor/liquid/prebuilt/common/etc/themestore/ThemeStore.apk:system/app/ThemeStore.apk \
     vendor/liquid/prebuilt/common/etc/ota/update_me.xml:system/update_me.xml \
-	
+    
+# Fast Dormancy
+PRODUCT_PROPERTY_OVERRIDES += \ 
+    ro.ril.fast.dormancy.rule=0 \
+    ro.fast.dormancy=0	
 	
 # superuser
 SUPERUSER_EMBEDDED := true
