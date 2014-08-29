@@ -188,6 +188,10 @@ echo -e "    / /___/ / /_/ / /_/ / / /_/ /___/  / / / / / //_/ //_/ / /_/ / / / 
 echo -e "   /_____/_/\__, /\__,_/_/\__,_//____ /_/ /_/ /_/\___/\___/\__/_/ /_/ "
 echo -e "              /_/       "${txtrst} ${cya}"CyanHacker v-$VERSION"
 echo -e "                                $TARGET_PRODUCT_FINAL"${txtrst}
+echo -e ${red}"    / | \      You are not finished yet!                         / | \ "          
+echo -e "   /  |  \     Copy the files from extra/packages to-           /  |  \ "
+echo -e "  /   |   \    data/app and insert them into the zip file!     /   |   \ "  
+echo -e " /    o    \   Now you are finished!!                         /    o    \ "
 echo -e ""
 echo -e ""; echo -e ${cya}"Package complete:${ylw} $OUTFILE"${txtrst}
 echo -e ${cya}"ZIP:${ylw}  $img"${txtrst}
