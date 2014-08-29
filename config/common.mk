@@ -51,8 +51,7 @@ PRODUCT_PACKAGES += \
     DeskClock \
     LiquidLauncher \
     LiquidPapers \
-    LiquidStats \
-    LiquidUpdater
+    LiquidStats 
 
 # CyanHacker
 PRODUCT_PACKAGES += \
