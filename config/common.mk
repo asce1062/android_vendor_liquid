@@ -72,6 +72,8 @@ PRODUCT_COPY_FILES += \
     vendor/liquid/prebuilt/common/etc/romcontrol/Xposed.apk:system/app/Xposed.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/BetterBatteryStats.apk:system/priv-app/BetterBatteryStats.apk \
     vendor/liquid/prebuilt/common/etc/themestore/ThemeStore.apk:system/app/ThemeStore.apk \
+	vendor/liquid/prebuilt/common/etc/hackapp/OperaMax.apk:system/hackapp/OperaMax.apk \
+    vendor/liquid/prebuilt/common/etc/hackapp/FolderMount.apk:system/hackapp/FolderMount.apk \
     vendor/liquid/prebuilt/common/etc/ota/update_me.xml:system/update_me.xml \
 	
 	
