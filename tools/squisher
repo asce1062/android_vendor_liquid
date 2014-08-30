@@ -181,12 +181,12 @@ cd `dirname $OUTFILE`
 $MD5 $img >$img.md5sum
 ZIPSIZE=`ls -lah $OUTFILE | awk '{ print $5}'`
 echo -e ""
-echo -e ${blu}"       __                        _______                      __  __ "
-echo -e "      / /   __ ___  __  __ _ ___/ / ___/ ___ ____  ___  ___  / /_/ /_ "
-echo -e "     / /   / / __ '/ / / / / __  /\__  \/ __' __ \/__ \/__ \/ __/ __ \ "
-echo -e "    / /___/ / /_/ / /_/ / / /_/ /___/  / / / / / //_/ //_/ / /_/ / / / "
-echo -e "   /_____/_/\__, /\__,_/_/\__,_//____ /_/ /_/ /_/\___/\___/\__/_/ /_/ "
-echo -e "              /_/       "${txtrst} ${cya}"CyanHacker v-$VERSION"
+echo -e ${blu}" _____          ____                   ____   ____        ____   ____"
+echo -e "|      |     | |    |  |\   |  |    | |    | |      | /  |      |    |"
+echo -e "|      |__ __| |____|  | \  |  |____| |____| |      |/   |____  |____|"
+echo -e "|         /    |    |  |  \ |  |    | |    | |      |\   |      |   \ "
+echo -e "|_____   /     |    |  |   \|  |    | |    | |____  | \  |____  |    \ "
+echo -e "                        "${txtrst} ${cya}"CyanHacker v-$VERSION"
 echo -e "                                $TARGET_PRODUCT_FINAL"${txtrst}
 echo -e ${red}"    / | \      You are not finished yet!                         / | \ "          
 echo -e "   /  |  \     Copy the files from extra/packages to-           /  |  \ "
