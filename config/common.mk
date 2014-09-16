@@ -74,7 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/liquid/prebuilt/common/etc/trickster/Trickster.apk:system/app/TricksterMod.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/XposedInstaller.apk:system/app/Xposed.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/BetterBatteryStats.apk:system/priv-app/BetterBatteryStats.apk \
-    vendor/liquid/prebuilt/common/etc/themestore/Themestore.apk:system/app/ThemeStore.apk \
+    vendor/liquid/prebuilt/common/etc/themestore/ThemeStore.apk:system/app/ThemeStore.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/OperaMax.apk:system/hackapp/OperaMax.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/FolderMount.apk:system/hackapp/FolderMount.apk \
     vendor/liquid/prebuilt/common/etc/ota/update_me.xml:system/update_me.xml \
