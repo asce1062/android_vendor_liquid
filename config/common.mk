@@ -63,7 +63,8 @@ PRODUCT_PACKAGES += \
 
 	
 PRODUCT_COPY_FILES += \
-    vendor/liquid/prebuilt/common/etc/zedge/Zedge.apk:system/app/Zedge.apk \
+    vendor/liquid/prebuilt/common/etc/wally/Wally.apk:system/app/Wally.apk \
+    vendor/liquid/prebuilt/common/etc/smitten/Smitten.apk:system/app/Smitten.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/Rom-Control.apk:system/app/Rom-Control.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/ClockSync.apk:system/app/ClockSync.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/Greenify.apk:system/app/Greenify.apk \
