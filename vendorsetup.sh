@@ -1,3 +1,4 @@
+add_lunch_combo liquid_a5-userdebug
 add_lunch_combo liquid_acclaim-userdebug
 add_lunch_combo liquid_amami-userdebug
 add_lunch_combo liquid_apexqtmo-userdebug
@@ -22,7 +23,6 @@ add_lunch_combo liquid_hercules-userdebug
 add_lunch_combo liquid_hammerhead-userdebug
 add_lunch_combo liquid_hlte-userdebug
 add_lunch_combo liquid_hltespr-userdebug
-add_lunch_combo liquid_hltetmo-userdebug
 add_lunch_combo liquid_hlteusc-userdebug
 add_lunch_combo liquid_hltevzw-userdebug
 add_lunch_combo liquid_honami-userdebug
