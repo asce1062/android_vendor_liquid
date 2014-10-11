@@ -52,7 +52,6 @@ PRODUCT_PACKAGES += \
 # Extras for Liquid
 PRODUCT_PACKAGES += \
     Apollo \
-    DashClock \
     DeskClock \
     LiquidLauncher \
     LiquidPapers \
