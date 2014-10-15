@@ -91,7 +91,9 @@ PRODUCT_PACKAGES += \
 
 # Viper4Android
 PRODUCT_COPY_FILES += \
-    vendor/liquid/prebuilt/common/etc/viper/ViPER4Android.apk:system/app/ViPER4Android.apk
+    vendor/liquid/prebuilt/common/etc/viper/ViPER4Android.apk:system/app/ViPER4Android.apk \
+    vendor/liquid/prebuilt/common/etc/viper/libv4a_fx_jb_NEON_SQ.so:system/lib/soundfx/libv4a_fx_jb_NEON_SQ.so \
+    vendor/liquid/prebuilt/common/etc/viper/audio_effects.conf:system/etc/audio_effects.conf
 
 PRODUCT_COPY_FILES += \
     external/koush/Superuser/init.superuser.rc:root/init.superuser.rc
