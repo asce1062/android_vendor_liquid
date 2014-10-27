@@ -79,7 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/liquid/prebuilt/common/etc/themestore/ThemeStore.apk:system/app/ThemeStore.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/OperaMax.apk:system/hackapp/OperaMax.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/FolderMount.apk:system/hackapp/FolderMount.apk \
-    vendor/liquid/prebuilt/common/etc/ota/update_me.xml:system/update_me.xml \
+   #vendor/liquid/prebuilt/common/etc/ota/update_me.xml:system/update_me.xml \
 	
 	
 # superuser
