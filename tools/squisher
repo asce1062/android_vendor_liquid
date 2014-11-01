@@ -190,7 +190,7 @@ echo -e "|      |     | |    |  |\   |  |    | |    | |      | /  |      |    |"
 echo -e "|      |__ __| |____|  | \  |  |____| |____| |      |/   |____  |____|"
 echo -e "|         /    |    |  |  \ |  |    | |    | |      |\   |      |   \ "
 echo -e "|_____   /     |    |  |   \|  |    | |    | |____  | \  |____  |    \ "
-echo -e "                        "${txtrst} ${cya}"CyanHacker v-$VERSION"
+echo -e "                        "${txtrst} ${cya}"CyanHacker v$VERSION"
 echo -e "                                $TARGET_PRODUCT_FINAL"${txtrst}
 echo -e ""
 echo -e ""; echo -e ${cya}"Package complete:${ylw} $OUTFILE"${txtrst}
