@@ -71,10 +71,8 @@ PRODUCT_COPY_FILES += \
     vendor/liquid/prebuilt/common/etc/romcontrol/Greenify.apk:system/app/Greenify.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/TitaniumBackup.apk:system/app/TitaniumBackup.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/SDMaid.apk:system/app/SDMaid.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/UpdateMe.apk:system/app/UpdateMe.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/TintedStatusBar.apk:system/app/TintedStatusBar.apk \
+   #vendor/liquid/prebuilt/common/etc/romcontrol/UpdateMe.apk:system/app/UpdateMe.apk \
     vendor/liquid/prebuilt/common/etc/trickster/Trickster.apk:system/app/TricksterMod.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/XposedInstaller.apk:system/app/Xposed.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/BetterBatteryStats.apk:system/priv-app/BetterBatteryStats.apk \
     vendor/liquid/prebuilt/common/etc/themestore/ThemeStore.apk:system/app/ThemeStore.apk \
     vendor/liquid/prebuilt/common/etc/romcontrol/OperaMax.apk:system/hackapp/OperaMax.apk \
