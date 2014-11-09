@@ -160,7 +160,7 @@ PRODUCT_COPY_FILES += \
 # version
 RELEASE = false
 LIQUID_VERSION_MAJOR = 2
-LIQUID_VERSION_MINOR = 0prerelease
+LIQUID_VERSION_MINOR = 0
 
 # release
 ifeq ($(RELEASE),true)
