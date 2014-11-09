@@ -4,7 +4,7 @@ usage()
 {
     echo -e ""
     echo -e ${txtbld}"Usage:"${txtrst}
-    echo -e "  build-liquid.sh [options] device"
+    echo -e "  build-hacker.sh [options] device"
     echo -e ""
     echo -e ${txtbld}"  Options:"${txtrst}
     echo -e "    -c# Cleanin options before build:"
@@ -18,13 +18,10 @@ usage()
     echo -e "    -j# Set jobs"
     echo -e "    -s  Sync before build"
     echo -e "    -p  Build using pipe"
-    echo -e "    -o# Select GCC O Level"
-    echo -e "        Valid O Levels are"
-    echo -e "        1 (Os) or 3 (O3)"
     echo -e "    -v  Verbose build output"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
-    echo -e "    ./build-liquid.sh -p -o3 -j18 hammerhead"
+    echo -e "    ./build-hacker.sh -p -s -j18 hammerhead"
     echo -e ""
     exit 1
 }
