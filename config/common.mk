@@ -66,21 +66,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/liquid/prebuilt/common/etc/wally/Wally.apk:system/app/Wally.apk \
     vendor/liquid/prebuilt/common/etc/smitten/Smitten.apk:system/app/Smitten.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/Rom-Control.apk:system/app/Rom-Control.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/ClockSync.apk:system/app/ClockSync.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/Greenify.apk:system/app/Greenify.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/TitaniumBackup.apk:system/app/TitaniumBackup.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/SDMaid.apk:system/app/SDMaid.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/UpdateMe.apk:system/app/UpdateMe.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/TintedStatusBar.apk:system/app/TintedStatusBar.apk \
+    vendor/liquid/prebuilt/common/etc/chapps/ClockSync.apk:system/app/ClockSync.apk \
+    vendor/liquid/prebuilt/common/etc/chapps/Greenify.apk:system/app/Greenify.apk \
+    vendor/liquid/prebuilt/common/etc/chapps/TitaniumBackup.apk:system/app/TitaniumBackup.apk \
+    vendor/liquid/prebuilt/common/etc/chapps/SDMaid.apk:system/app/SDMaid.apk \
     vendor/liquid/prebuilt/common/etc/trickster/Trickster.apk:system/app/TricksterMod.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/XposedInstaller.apk:system/app/Xposed.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/BetterBatteryStats.apk:system/priv-app/BetterBatteryStats.apk \
+    vendor/liquid/prebuilt/common/etc/chapps/BetterBatteryStats.apk:system/priv-app/BetterBatteryStats.apk \
     vendor/liquid/prebuilt/common/etc/themestore/ThemeStore.apk:system/app/ThemeStore.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/OperaMax.apk:system/hackapp/OperaMax.apk \
-    vendor/liquid/prebuilt/common/etc/romcontrol/FolderMount.apk:system/hackapp/FolderMount.apk \
-   #vendor/liquid/prebuilt/common/etc/ota/update_me.xml:system/update_me.xml \
-	
+    vendor/liquid/prebuilt/common/etc/chapps/OperaMax.apk:system/hackapp/OperaMax.apk \
+    vendor/liquid/prebuilt/common/etc/chapps/FolderMount.apk:system/hackapp/FolderMount.apk
 	
 # superuser
 SUPERUSER_EMBEDDED := true
@@ -168,7 +162,7 @@ PRODUCT_COPY_FILES += \
 # version
 RELEASE = false
 LIQUID_VERSION_MAJOR = 2
-LIQUID_VERSION_MINOR = 0prerelease
+LIQUID_VERSION_MINOR = 0
 
 # release
 ifeq ($(RELEASE),true)
